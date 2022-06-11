@@ -1,0 +1,56 @@
+.jewel {
+  background-color: #333;
+  flex: 1 1 auto;
+  margin: 0 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+
+  .jewelImg {
+    flex: 1 1 auto;
+  }
+
+  .jewelData {
+    padding: 2rem;
+
+    .jewelInfo {
+      margin-bottom: 0.8rem;
+
+      .jewelName {
+        font-weight: bold;
+        color: rgb(255, 203, 114);
+        margin-bottom: 0.3rem;
+      }
+
+      .jewelPrice {
+        color: rgb(227, 163, 53);
+      }
+    }
+
+    .jewelCount {
+      display: flex;
+      gap: 0.4rem;
+
+      .jewelButton {
+        font-weight: bold;
+        font-size: 1.4rem;
+        width: 2rem;
+      }
+
+      .jewelInput {
+        width: 4rem;
+        text-align: center;
+        border: none;
+        border-radius: 0.2rem;
+        background-color: rgb(255, 203, 114);
+        color: #333;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+        appearance: none;
+      }
+    }
+  }
+}
